@@ -1,0 +1,47 @@
+{
+  "name": "lime-whisper-theme",
+  "displayName": "Lime Whisper Theme",
+  "description": "A gentle citrus-inspired theme with soft lime and mint tones.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "lime",
+    "mint",
+    "citrus",
+    "green",
+    "pastel"
+  ],
+  "icon": "assets/icon.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "galleryBanner": {
+    "color": "#222B24",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/lime-whisper-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lime Whisper Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/lime-whisper-light-color-theme.json"
+      },
+      {
+        "label": "Lime Whisper Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lime-whisper-dark-color-theme.json"
+      }
+    ]
+  }
+}

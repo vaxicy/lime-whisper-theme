@@ -1,0 +1,9 @@
+.codebuddy/**
+.gitignore
+scripts/**
+.tmp/**
+**/__pycache__/**
+*.vsix
+assets/logo-original.png
+assets/logo-prompt.txt
+store-assets/icon-candidates/**
